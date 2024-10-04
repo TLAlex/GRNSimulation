@@ -8,7 +8,7 @@ Author-email: melaug91@hotmail.fr
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
+Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 Requires-Dist: numpy
 Requires-Dist: scipy
@@ -19,9 +19,9 @@ Requires-Dist: pytest; extra == "dev"
 
 # GRN synthetic data simulation
 
-Simulation dynamique de benchmarks de rÃ©seaux de rÃ©gulation gÃ©niques pour l'entraÃ®nement d'algorithmes d'infÃ©rence.
+Simulation dynamique de benchmarks de réseaux de régulation géniques pour l'entraînement d'algorithmes d'inférence.
 
-## Table des MatiÃ¨res
+## Table des Matières
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -30,25 +30,25 @@ Simulation dynamique de benchmarks de rÃ©seaux de rÃ©gulation gÃ©niques po
 
 ## Introduction
 
-Ce projet permet de simuler dynamiquement des rÃ©seaux de rÃ©gulation gÃ©niques (GRN) en utilisant des Ã©quations diffÃ©rentielles ordinaires (ODEs) et de gÃ©nÃ©rer des benchmarks pour l'entraÃ®nement et l'Ã©valuation d'algorithmes d'infÃ©rence. Le projet supporte trois types d'ODEs : loi Action de Masse et loi de Hill.
+Ce projet permet de simuler dynamiquement des réseaux de régulation géniques (GRN) en utilisant des équations différentielles ordinaires (ODEs) et de générer des benchmarks pour l'entraînement et l'évaluation d'algorithmes d'inférence. Le projet supporte trois types d'ODEs : loi Action de Masse, la loi de Hill et une loi indirecte hybrides des deux premières.
 
 
 ## Installation
 
-### PrÃ©requis
+### Prérequis
 
 - Python 3.6+
 - `pip`
 
-### Ã‰tapes d'installation
+### Étapes d'installation
 
-1. Clonez le dÃ©pÃ´t :
+1. Clonez le dépôt :
     ```sh
     git clone https://github.com/castlechild/GRNSimulation
-    cd projet
+    cd GRNSimulation
     ```
 
-2. Installez les dÃ©pendances :
+2. Installez les dépendances :
     ```sh
     pip install -r requirements.txt
     ```
@@ -60,10 +60,10 @@ Ce projet permet de simuler dynamiquement des rÃ©seaux de rÃ©gulation gÃ©n
 
 ## Utilisation
 
-### ExÃ©cution de la simulation
+### Exécution d'une simulation
 
-Vous pouvez exÃ©cuter une simulation en utilisant le script principal `main.py` :
+Vous pouvez exécuter une simulation en utilisant le notebook d'exemple `exemple.ipynb` :
 
 ```sh
-python main.py
+code exemple.ipynb
 ```
